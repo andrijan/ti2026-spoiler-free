@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TI 2026 — Spoiler-Free</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡️</text></svg>">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <div class="title-row">
+      <div>
+        <h1>The International 2026</h1>
+        <p class="sub" id="sub">Shanghai, China · August 13–23, 2026</p>
+      </div>
+      <div class="progress-box">
+        <div class="progress-num"><span id="watchedCount">0</span><span class="dim">/<span id="totalCount">0</span></span></div>
+        <div class="progress-label">games watched</div>
+        <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <input type="search" id="search" placeholder="Filter by team…" autocomplete="off" spellcheck="false">
+
+      <label class="ctl">
+        <span>Reveal</span>
+        <select id="mode">
+          <option value="progressive">Progressive</option>
+          <option value="strict">Strict</option>
+          <option value="open">Open</option>
+        </select>
+      </label>
+
+      <label class="ctl check"><input type="checkbox" id="hideWatched"><span>Hide finished series</span></label>
+      <label class="ctl check"><input type="checkbox" id="onlyGood"><span>Only rated series</span></label>
+
+      <button class="ghost" id="howBtn">How this works</button>
+    </div>
+
+    <div class="explain" id="explain" hidden>
+      <button class="explain-close" id="explainClose" aria-label="Close">×</button>
+      <h2>How this stays spoiler-free</h2>
+      <p>
+        Every series shows <strong>all</strong> of its slots — three for a Bo3, five for a Bo5 —
+        whether or not the game was actually played. The number of links can never tell you
+        that a series ended 2–0. If you open a slot for a game that was never played, the site
+        says so at that moment, and not before.
+      </p>
+      <p>
+        Rounds start collapsed so a later matchup can't spoil an earlier result just by
+        sitting on screen. Open one when you're ready for it.
+      </p>
+      <h3>Reveal modes</h3>
+      <ul>
+        <li><strong>Progressive</strong> (default) — a slot opens up once you've ticked the game
+          before it. You always know what you're about to watch, never what comes after.</li>
+        <li><strong>Strict</strong> — nothing at all until you press the <span class="mini-eye">?</span>
+          on a specific game. The series rating stays hidden too.</li>
+        <li><strong>Open</strong> — everything visible. Use this once you've caught up.</li>
+      </ul>
+      <h3>What the ratings mean</h3>
+      <p>
+        Ratings are shown per <em>series</em> only — enough to tell you a good game is in
+        there somewhere, never which one it is. There's no public site that rates individual
+        pro Dota games, so this one scores them from the replay data itself (via OpenDota).
+        Four signals, ranked against every other game at this TI:
+      </p>
+      <ul>
+        <li><strong>Comeback</strong> — the biggest gold deficit the eventual winner climbed out of</li>
+        <li><strong>Lead swings</strong> — how often the gold lead genuinely changed hands</li>
+        <li><strong>Closeness</strong> — how tight the gold margin stayed through the back half</li>
+        <li><strong>Kill pace</strong> — kills per minute</li>
+      </ul>
+      <p>
+        A series is flagged <span class="badge tier2">★★ must-watch inside</span> if one of its
+        games lands in the top 15% at this TI, or <span class="badge tier1">★ worth watching</span>
+        for the next 25%. A rating never reveals who won.
+      </p>
+      <p>
+        Game length is never shown. A revealed slot is marked
+        <span class="badge short">⏱ short</span> if it ran under 35 minutes, and carries no
+        mark otherwise — so you can skip the quick ones without knowing how long the rest are.
+      </p>
+      <p class="fineprint">
+        Schedule and VOD links from Liquipedia; durations and replay stats from OpenDota.
+        Re-run <code>python3 update.py</code> to pull in new games.
+      </p>
+    </div>
+  </div>
+</header>
+
+<main class="wrap" id="app"></main>
+
+<footer class="wrap foot">
+  <span id="stamp"></span>
+  <span class="credit">
+    Schedule and VOD links from <a href="https://liquipedia.net/dota2/The_International/2026" target="_blank" rel="noreferrer">Liquipedia</a>
+    (<a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noreferrer">CC BY-SA 3.0</a>) ·
+    durations and replay stats from <a href="https://www.opendota.com/" target="_blank" rel="noreferrer">OpenDota</a>
+  </span>
+  <button class="ghost small" id="reset">Reset watched history</button>
+</footer>
+
+<script src="data/matches.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+name: Refresh match data
+
+# TI 2026 runs Aug 13-23. Every three hours is comfortably ahead of Liquipedia,
+# which posts VOD links within an hour or two of a series finishing.
+on:
+  schedule:
+    - cron: "17 */3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["update.py"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # data/.cache is committed, so this only fetches games it hasn't seen
+      - name: Rebuild data/matches.js
+        run: python3 update.py
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/matches.js data/.cache
+          if git diff --staged --quiet; then
+            echo "No new games."
+          else
+            git commit -m "Refresh match data"
+            git push
+          fi
