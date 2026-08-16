@@ -6,7 +6,7 @@ window.TI_DATA = {
   "city": "Shanghai, China",
   "dates": "August 13-23, 2026"
  },
- "generated": 1786829339,
+ "generated": 1786845588,
  "series": [
   {
    "id": "s000",
@@ -2085,7 +2085,7 @@ window.TI_DATA = {
    "id": "s040",
    "stage": "Group Stage",
    "round": "Elimination Round",
-   "start": 1786845600,
+   "start": 1786849200,
    "teams": [
     "Aurora Gaming",
     "BoomBoys"
@@ -2145,7 +2145,7 @@ window.TI_DATA = {
    "id": "s042",
    "stage": "Group Stage",
    "round": "Elimination Round",
-   "start": 1786856400,
+   "start": 1786860000,
    "teams": [
     "Iron Wing",
     "GamerLegion"
