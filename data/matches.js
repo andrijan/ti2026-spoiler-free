@@ -6,7 +6,7 @@ window.TI_DATA = {
   "city": "Shanghai, China",
   "dates": "August 13-23, 2026"
  },
- "generated": 1786845588,
+ "generated": 1786852979,
  "series": [
   {
    "id": "s000",
@@ -149,7 +149,7 @@ window.TI_DATA = {
      "matchId": 8943055466,
      "duration": 2215,
      "short": false,
-     "score": 17,
+     "score": 18,
      "tier": 0,
      "estimated": false,
      "comeback": 0,
@@ -230,8 +230,8 @@ window.TI_DATA = {
    "bo": 3,
    "complete": true,
    "gamesPlayed": 2,
-   "bestTier": 1,
-   "bestScore": 71,
+   "bestTier": 2,
+   "bestScore": 72,
    "allShort": false,
    "games": [
     {
@@ -241,8 +241,8 @@ window.TI_DATA = {
      "matchId": 8943091110,
      "duration": 3610,
      "short": false,
-     "score": 71,
-     "tier": 1,
+     "score": 72,
+     "tier": 2,
      "estimated": false,
      "comeback": 5340,
      "swings": 2
@@ -385,7 +385,7 @@ window.TI_DATA = {
      "matchId": 8943142948,
      "duration": 1515,
      "short": true,
-     "score": 10,
+     "score": 11,
      "tier": 0,
      "estimated": false,
      "comeback": 0,
@@ -423,7 +423,7 @@ window.TI_DATA = {
    "complete": true,
    "gamesPlayed": 3,
    "bestTier": 1,
-   "bestScore": 69,
+   "bestScore": 70,
    "allShort": false,
    "games": [
     {
@@ -433,7 +433,7 @@ window.TI_DATA = {
      "matchId": 8943202720,
      "duration": 3237,
      "short": false,
-     "score": 69,
+     "score": 70,
      "tier": 1,
      "estimated": false,
      "comeback": 2555,
@@ -446,7 +446,7 @@ window.TI_DATA = {
      "matchId": 8943278347,
      "duration": 2681,
      "short": false,
-     "score": 8,
+     "score": 9,
      "tier": 0,
      "estimated": false,
      "comeback": 0,
@@ -621,7 +621,7 @@ window.TI_DATA = {
      "matchId": 8943477775,
      "duration": 5678,
      "short": false,
-     "score": 50,
+     "score": 51,
      "tier": 1,
      "estimated": false,
      "comeback": 4904,
@@ -747,7 +747,7 @@ window.TI_DATA = {
    "complete": true,
    "gamesPlayed": 2,
    "bestTier": 0,
-   "bestScore": 40,
+   "bestScore": 41,
    "allShort": false,
    "games": [
     {
@@ -770,7 +770,7 @@ window.TI_DATA = {
      "matchId": 8944506550,
      "duration": 2832,
      "short": false,
-     "score": 40,
+     "score": 41,
      "tier": 0,
      "estimated": false,
      "comeback": 545,
@@ -794,7 +794,7 @@ window.TI_DATA = {
    "bo": 3,
    "complete": true,
    "gamesPlayed": 3,
-   "bestTier": 2,
+   "bestTier": 1,
    "bestScore": 71,
    "allShort": false,
    "games": [
@@ -832,7 +832,7 @@ window.TI_DATA = {
      "duration": 3255,
      "short": false,
      "score": 71,
-     "tier": 2,
+     "tier": 1,
      "estimated": false,
      "comeback": 12392,
      "swings": 2
@@ -852,7 +852,7 @@ window.TI_DATA = {
    "complete": true,
    "gamesPlayed": 2,
    "bestTier": 2,
-   "bestScore": 77,
+   "bestScore": 78,
    "allShort": false,
    "games": [
     {
@@ -862,7 +862,7 @@ window.TI_DATA = {
      "matchId": 8944553935,
      "duration": 3012,
      "short": false,
-     "score": 77,
+     "score": 78,
      "tier": 2,
      "estimated": false,
      "comeback": 2562,
@@ -1005,7 +1005,7 @@ window.TI_DATA = {
    "complete": true,
    "gamesPlayed": 2,
    "bestTier": 0,
-   "bestScore": 34,
+   "bestScore": 35,
    "allShort": false,
    "games": [
     {
@@ -1028,7 +1028,7 @@ window.TI_DATA = {
      "matchId": 8944692094,
      "duration": 1961,
      "short": true,
-     "score": 34,
+     "score": 35,
      "tier": 0,
      "estimated": false,
      "comeback": 0,
@@ -1272,7 +1272,7 @@ window.TI_DATA = {
    "complete": true,
    "gamesPlayed": 3,
    "bestTier": 1,
-   "bestScore": 60,
+   "bestScore": 61,
    "allShort": false,
    "games": [
     {
@@ -1282,7 +1282,7 @@ window.TI_DATA = {
      "matchId": 8946161784,
      "duration": 3544,
      "short": false,
-     "score": 60,
+     "score": 61,
      "tier": 1,
      "estimated": false,
      "comeback": 15005,
@@ -1352,7 +1352,7 @@ window.TI_DATA = {
      "matchId": 8946228708,
      "duration": 2867,
      "short": false,
-     "score": 43,
+     "score": 44,
      "tier": 1,
      "estimated": false,
      "comeback": 1267,
@@ -1443,7 +1443,7 @@ window.TI_DATA = {
    "complete": true,
    "gamesPlayed": 3,
    "bestTier": 1,
-   "bestScore": 56,
+   "bestScore": 57,
    "allShort": false,
    "games": [
     {
@@ -1466,7 +1466,7 @@ window.TI_DATA = {
      "matchId": 8946227017,
      "duration": 2959,
      "short": false,
-     "score": 56,
+     "score": 57,
      "tier": 1,
      "estimated": false,
      "comeback": 1863,
@@ -1558,7 +1558,7 @@ window.TI_DATA = {
      "matchId": 8946337070,
      "duration": 2802,
      "short": false,
-     "score": 68,
+     "score": 69,
      "tier": 1,
      "estimated": false,
      "comeback": 8105,
@@ -1605,7 +1605,7 @@ window.TI_DATA = {
    "complete": true,
    "gamesPlayed": 2,
    "bestTier": 2,
-   "bestScore": 72,
+   "bestScore": 73,
    "allShort": false,
    "games": [
     {
@@ -1615,7 +1615,7 @@ window.TI_DATA = {
      "matchId": 8946343023,
      "duration": 2527,
      "short": false,
-     "score": 72,
+     "score": 73,
      "tier": 2,
      "estimated": false,
      "comeback": 5939,
@@ -1701,7 +1701,7 @@ window.TI_DATA = {
    "complete": true,
    "gamesPlayed": 2,
    "bestTier": 0,
-   "bestScore": 27,
+   "bestScore": 28,
    "allShort": false,
    "games": [
     {
@@ -1724,7 +1724,7 @@ window.TI_DATA = {
      "matchId": 8946650558,
      "duration": 2135,
      "short": false,
-     "score": 27,
+     "score": 28,
      "tier": 0,
      "estimated": false,
      "comeback": 0,
@@ -1995,7 +1995,7 @@ window.TI_DATA = {
      "matchId": 8946996385,
      "duration": 2512,
      "short": false,
-     "score": 69,
+     "score": 70,
      "tier": 1,
      "estimated": false,
      "comeback": 1690,
@@ -2062,14 +2062,23 @@ window.TI_DATA = {
    ],
    "bo": 3,
    "complete": false,
-   "gamesPlayed": 0,
+   "gamesPlayed": 1,
    "bestTier": 0,
-   "bestScore": null,
+   "bestScore": 9,
    "allShort": false,
    "games": [
     {
      "n": 1,
-     "played": false
+     "played": true,
+     "url": null,
+     "matchId": 8947983249,
+     "duration": 2446,
+     "short": false,
+     "score": 9,
+     "tier": 0,
+     "estimated": false,
+     "comeback": 0,
+     "swings": 0
     },
     {
      "n": 2,
