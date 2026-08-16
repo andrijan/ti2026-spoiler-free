@@ -6,7 +6,7 @@ window.TI_DATA = {
   "city": "Shanghai, China",
   "dates": "August 13-23, 2026"
  },
- "generated": 1786873551,
+ "generated": 1786885432,
  "series": [
   {
    "id": "s000",
@@ -149,7 +149,7 @@ window.TI_DATA = {
      "matchId": 8943055466,
      "duration": 2215,
      "short": false,
-     "score": 17,
+     "score": 18,
      "tier": 0,
      "estimated": false,
      "comeback": 0,
@@ -210,7 +210,7 @@ window.TI_DATA = {
      "matchId": 8943098449,
      "duration": 1946,
      "short": true,
-     "score": 28,
+     "score": 27,
      "tier": 0,
      "estimated": false,
      "comeback": 0,
@@ -805,7 +805,7 @@ window.TI_DATA = {
      "matchId": 8944475901,
      "duration": 2828,
      "short": false,
-     "score": 60,
+     "score": 59,
      "tier": 1,
      "estimated": false,
      "comeback": 5346,
@@ -1005,7 +1005,7 @@ window.TI_DATA = {
    "complete": true,
    "gamesPlayed": 2,
    "bestTier": 0,
-   "bestScore": 34,
+   "bestScore": 35,
    "allShort": false,
    "games": [
     {
@@ -1028,7 +1028,7 @@ window.TI_DATA = {
      "matchId": 8944692094,
      "duration": 1961,
      "short": true,
-     "score": 34,
+     "score": 35,
      "tier": 0,
      "estimated": false,
      "comeback": 0,
@@ -1422,7 +1422,7 @@ window.TI_DATA = {
      "matchId": 8946260898,
      "duration": 1820,
      "short": true,
-     "score": 23,
+     "score": 22,
      "tier": 0,
      "estimated": false,
      "comeback": 0,
@@ -1958,7 +1958,7 @@ window.TI_DATA = {
    "bo": 3,
    "complete": true,
    "gamesPlayed": 3,
-   "bestTier": 1,
+   "bestTier": 2,
    "bestScore": 71,
    "allShort": false,
    "games": [
@@ -1996,7 +1996,7 @@ window.TI_DATA = {
      "duration": 2512,
      "short": false,
      "score": 71,
-     "tier": 1,
+     "tier": 2,
      "estimated": false,
      "comeback": 1690,
      "swings": 1
@@ -2262,11 +2262,11 @@ window.TI_DATA = {
     "Team Yandex"
    ],
    "bo": 3,
-   "complete": false,
-   "gamesPlayed": 1,
+   "complete": true,
+   "gamesPlayed": 3,
    "bestTier": 1,
-   "bestScore": 44,
-   "allShort": true,
+   "bestScore": 60,
+   "allShort": false,
    "games": [
     {
      "n": 1,
@@ -2275,7 +2275,7 @@ window.TI_DATA = {
      "matchId": 8948311007,
      "duration": 1886,
      "short": true,
-     "score": 44,
+     "score": 43,
      "tier": 1,
      "estimated": false,
      "comeback": 519,
@@ -2283,11 +2283,29 @@ window.TI_DATA = {
     },
     {
      "n": 2,
-     "played": false
+     "played": true,
+     "url": "https://youtu.be/FlJIytLf_zU",
+     "matchId": 8948420293,
+     "duration": 2325,
+     "short": false,
+     "score": 42,
+     "tier": 0,
+     "estimated": false,
+     "comeback": 1383,
+     "swings": 0
     },
     {
      "n": 3,
-     "played": false
+     "played": true,
+     "url": null,
+     "matchId": 8948533452,
+     "duration": 4092,
+     "short": false,
+     "score": 60,
+     "tier": 1,
+     "estimated": false,
+     "comeback": 5806,
+     "swings": 2
     }
    ]
   },
@@ -2295,10 +2313,10 @@ window.TI_DATA = {
    "id": "s044",
    "stage": "Main Event",
    "round": "Upper Bracket Quarterfinals",
-   "start": null,
+   "start": 1787191200,
    "teams": [
-    "TBD",
-    "TBD"
+    "Iron Wing",
+    "Team Spirit"
    ],
    "bo": 3,
    "complete": false,
@@ -2325,10 +2343,10 @@ window.TI_DATA = {
    "id": "s045",
    "stage": "Main Event",
    "round": "Upper Bracket Quarterfinals",
-   "start": null,
+   "start": 1787202000,
    "teams": [
-    "TBD",
-    "TBD"
+    "TEAM VISION",
+    "BoomBoys"
    ],
    "bo": 3,
    "complete": false,
@@ -2354,11 +2372,11 @@ window.TI_DATA = {
   {
    "id": "s046",
    "stage": "Main Event",
-   "round": "Upper Bracket Semifinals",
-   "start": null,
+   "round": "Upper Bracket Quarterfinals",
+   "start": 1787212800,
    "teams": [
-    "TBD",
-    "TBD"
+    "Team Liquid",
+    "Team Yandex"
    ],
    "bo": 3,
    "complete": false,
@@ -2385,10 +2403,10 @@ window.TI_DATA = {
    "id": "s047",
    "stage": "Main Event",
    "round": "Upper Bracket Quarterfinals",
-   "start": null,
+   "start": 1787223600,
    "teams": [
-    "TBD",
-    "TBD"
+    "Nigma Galaxy",
+    "Team Falcons"
    ],
    "bo": 3,
    "complete": false,
@@ -2414,8 +2432,8 @@ window.TI_DATA = {
   {
    "id": "s048",
    "stage": "Main Event",
-   "round": "Upper Bracket Quarterfinals",
-   "start": null,
+   "round": "Lower Bracket Round 1",
+   "start": 1787277600,
    "teams": [
     "TBD",
     "TBD"
@@ -2444,8 +2462,8 @@ window.TI_DATA = {
   {
    "id": "s049",
    "stage": "Main Event",
-   "round": "Upper Bracket Semifinals",
-   "start": null,
+   "round": "Lower Bracket Round 1",
+   "start": 1787288400,
    "teams": [
     "TBD",
     "TBD"
@@ -2474,8 +2492,8 @@ window.TI_DATA = {
   {
    "id": "s050",
    "stage": "Main Event",
-   "round": "Upper Bracket Final",
-   "start": null,
+   "round": "Upper Bracket Semifinals",
+   "start": 1787299200,
    "teams": [
     "TBD",
     "TBD"
@@ -2504,8 +2522,8 @@ window.TI_DATA = {
   {
    "id": "s051",
    "stage": "Main Event",
-   "round": "Lower Bracket Round 1",
-   "start": null,
+   "round": "Upper Bracket Semifinals",
+   "start": 1787310000,
    "teams": [
     "TBD",
     "TBD"
@@ -2535,7 +2553,7 @@ window.TI_DATA = {
    "id": "s052",
    "stage": "Main Event",
    "round": "Lower Bracket Quarterfinals",
-   "start": null,
+   "start": 1787364000,
    "teams": [
     "TBD",
     "TBD"
@@ -2564,8 +2582,8 @@ window.TI_DATA = {
   {
    "id": "s053",
    "stage": "Main Event",
-   "round": "Lower Bracket Round 1",
-   "start": null,
+   "round": "Lower Bracket Quarterfinals",
+   "start": 1787374800,
    "teams": [
     "TBD",
     "TBD"
@@ -2594,8 +2612,8 @@ window.TI_DATA = {
   {
    "id": "s054",
    "stage": "Main Event",
-   "round": "Lower Bracket Quarterfinals",
-   "start": null,
+   "round": "Upper Bracket Final",
+   "start": 1787385600,
    "teams": [
     "TBD",
     "TBD"
@@ -2625,7 +2643,7 @@ window.TI_DATA = {
    "id": "s055",
    "stage": "Main Event",
    "round": "Lower Bracket Semifinals",
-   "start": null,
+   "start": 1787396400,
    "teams": [
     "TBD",
     "TBD"
@@ -2655,7 +2673,7 @@ window.TI_DATA = {
    "id": "s056",
    "stage": "Main Event",
    "round": "Lower Bracket Final",
-   "start": null,
+   "start": 1787450400,
    "teams": [
     "TBD",
     "TBD"
@@ -2685,7 +2703,7 @@ window.TI_DATA = {
    "id": "s057",
    "stage": "Main Event",
    "round": "Grand Final",
-   "start": null,
+   "start": 1787461200,
    "teams": [
     "TBD",
     "TBD"
