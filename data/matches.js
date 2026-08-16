@@ -6,7 +6,7 @@ window.TI_DATA = {
   "city": "Shanghai, China",
   "dates": "August 13-23, 2026"
  },
- "generated": 1786852979,
+ "generated": 1786863796,
  "series": [
   {
    "id": "s000",
@@ -126,7 +126,7 @@ window.TI_DATA = {
    "complete": true,
    "gamesPlayed": 2,
    "bestTier": 1,
-   "bestScore": 55,
+   "bestScore": 56,
    "allShort": false,
    "games": [
     {
@@ -136,7 +136,7 @@ window.TI_DATA = {
      "matchId": 8943013334,
      "duration": 2722,
      "short": false,
-     "score": 55,
+     "score": 56,
      "tier": 1,
      "estimated": false,
      "comeback": 2607,
@@ -185,7 +185,7 @@ window.TI_DATA = {
      "duration": 2517,
      "short": false,
      "score": 43,
-     "tier": 0,
+     "tier": 1,
      "estimated": false,
      "comeback": 1164,
      "swings": 0
@@ -230,8 +230,8 @@ window.TI_DATA = {
    "bo": 3,
    "complete": true,
    "gamesPlayed": 2,
-   "bestTier": 2,
-   "bestScore": 72,
+   "bestTier": 1,
+   "bestScore": 71,
    "allShort": false,
    "games": [
     {
@@ -241,8 +241,8 @@ window.TI_DATA = {
      "matchId": 8943091110,
      "duration": 3610,
      "short": false,
-     "score": 72,
-     "tier": 2,
+     "score": 71,
+     "tier": 1,
      "estimated": false,
      "comeback": 5340,
      "swings": 2
@@ -385,7 +385,7 @@ window.TI_DATA = {
      "matchId": 8943142948,
      "duration": 1515,
      "short": true,
-     "score": 11,
+     "score": 10,
      "tier": 0,
      "estimated": false,
      "comeback": 0,
@@ -446,7 +446,7 @@ window.TI_DATA = {
      "matchId": 8943278347,
      "duration": 2681,
      "short": false,
-     "score": 9,
+     "score": 8,
      "tier": 0,
      "estimated": false,
      "comeback": 0,
@@ -537,7 +537,7 @@ window.TI_DATA = {
    "complete": true,
    "gamesPlayed": 2,
    "bestTier": 1,
-   "bestScore": 63,
+   "bestScore": 64,
    "allShort": false,
    "games": [
     {
@@ -547,7 +547,7 @@ window.TI_DATA = {
      "matchId": 8943244303,
      "duration": 3227,
      "short": false,
-     "score": 31,
+     "score": 32,
      "tier": 0,
      "estimated": false,
      "comeback": 306,
@@ -560,7 +560,7 @@ window.TI_DATA = {
      "matchId": 8943324841,
      "duration": 4461,
      "short": false,
-     "score": 63,
+     "score": 64,
      "tier": 1,
      "estimated": false,
      "comeback": 8787,
@@ -608,7 +608,7 @@ window.TI_DATA = {
      "matchId": 8943364918,
      "duration": 3075,
      "short": false,
-     "score": 18,
+     "score": 17,
      "tier": 0,
      "estimated": false,
      "comeback": 0,
@@ -665,7 +665,7 @@ window.TI_DATA = {
      "matchId": 8944521792,
      "duration": 2619,
      "short": false,
-     "score": 80,
+     "score": 81,
      "tier": 2,
      "estimated": false,
      "comeback": 4239,
@@ -690,7 +690,7 @@ window.TI_DATA = {
    "complete": true,
    "gamesPlayed": 3,
    "bestTier": 2,
-   "bestScore": 86,
+   "bestScore": 87,
    "allShort": false,
    "games": [
     {
@@ -713,7 +713,7 @@ window.TI_DATA = {
      "matchId": 8944525313,
      "duration": 2377,
      "short": false,
-     "score": 86,
+     "score": 87,
      "tier": 2,
      "estimated": false,
      "comeback": 2612,
@@ -747,7 +747,7 @@ window.TI_DATA = {
    "complete": true,
    "gamesPlayed": 2,
    "bestTier": 0,
-   "bestScore": 41,
+   "bestScore": 40,
    "allShort": false,
    "games": [
     {
@@ -770,7 +770,7 @@ window.TI_DATA = {
      "matchId": 8944506550,
      "duration": 2832,
      "short": false,
-     "score": 41,
+     "score": 40,
      "tier": 0,
      "estimated": false,
      "comeback": 545,
@@ -852,7 +852,7 @@ window.TI_DATA = {
    "complete": true,
    "gamesPlayed": 2,
    "bestTier": 2,
-   "bestScore": 78,
+   "bestScore": 77,
    "allShort": false,
    "games": [
     {
@@ -862,7 +862,7 @@ window.TI_DATA = {
      "matchId": 8944553935,
      "duration": 3012,
      "short": false,
-     "score": 78,
+     "score": 77,
      "tier": 2,
      "estimated": false,
      "comeback": 2562,
@@ -900,7 +900,7 @@ window.TI_DATA = {
    "complete": true,
    "gamesPlayed": 2,
    "bestTier": 1,
-   "bestScore": 68,
+   "bestScore": 69,
    "allShort": false,
    "games": [
     {
@@ -910,7 +910,7 @@ window.TI_DATA = {
      "matchId": 8944565060,
      "duration": 2214,
      "short": false,
-     "score": 22,
+     "score": 21,
      "tier": 0,
      "estimated": false,
      "comeback": 0,
@@ -923,7 +923,7 @@ window.TI_DATA = {
      "matchId": 8944612322,
      "duration": 4116,
      "short": false,
-     "score": 68,
+     "score": 69,
      "tier": 1,
      "estimated": false,
      "comeback": 2968,
@@ -1053,7 +1053,7 @@ window.TI_DATA = {
    "complete": true,
    "gamesPlayed": 3,
    "bestTier": 1,
-   "bestScore": 62,
+   "bestScore": 63,
    "allShort": false,
    "games": [
     {
@@ -1089,7 +1089,7 @@ window.TI_DATA = {
      "matchId": 8944834423,
      "duration": 2277,
      "short": false,
-     "score": 62,
+     "score": 63,
      "tier": 1,
      "estimated": false,
      "comeback": 2465,
@@ -1225,7 +1225,7 @@ window.TI_DATA = {
      "matchId": 8944841068,
      "duration": 2528,
      "short": false,
-     "score": 26,
+     "score": 25,
      "tier": 0,
      "estimated": false,
      "comeback": 0,
@@ -1261,273 +1261,147 @@ window.TI_DATA = {
   },
   {
    "id": "s024",
-   "stage": "Group Stage",
-   "round": "Round 4",
-   "start": 1786759200,
+   "stage": "Main Event",
+   "round": "Upper Bracket Quarterfinals",
+   "start": null,
    "teams": [
-    "LGD Gaming",
-    "Xtreme Gaming"
+    "TBD",
+    "TBD"
    ],
    "bo": 3,
-   "complete": true,
-   "gamesPlayed": 3,
-   "bestTier": 1,
-   "bestScore": 61,
+   "complete": false,
+   "gamesPlayed": 0,
+   "bestTier": 0,
+   "bestScore": null,
    "allShort": false,
    "games": [
     {
      "n": 1,
-     "played": true,
-     "url": "https://youtu.be/jxMNLrFbdP8",
-     "matchId": 8946161784,
-     "duration": 3544,
-     "short": false,
-     "score": 61,
-     "tier": 1,
-     "estimated": false,
-     "comeback": 15005,
-     "swings": 1
+     "played": false
     },
     {
      "n": 2,
-     "played": true,
-     "url": "https://youtu.be/CPt0el5Y4ng",
-     "matchId": 8946231092,
-     "duration": 2947,
-     "short": false,
-     "score": 3,
-     "tier": 0,
-     "estimated": false,
-     "comeback": 0,
-     "swings": 0
+     "played": false
     },
     {
      "n": 3,
-     "played": true,
-     "url": "https://youtu.be/AoliX8SGH-U",
-     "matchId": 8946288549,
-     "duration": 2840,
-     "short": false,
-     "score": 31,
-     "tier": 0,
-     "estimated": false,
-     "comeback": 54,
-     "swings": 0
+     "played": false
     }
    ]
   },
   {
    "id": "s025",
-   "stage": "Group Stage",
-   "round": "Round 4",
-   "start": 1786759200,
+   "stage": "Main Event",
+   "round": "Upper Bracket Quarterfinals",
+   "start": null,
    "teams": [
-    "Team Falcons",
-    "GamerLegion"
+    "TBD",
+    "TBD"
    ],
    "bo": 3,
-   "complete": true,
-   "gamesPlayed": 3,
-   "bestTier": 1,
-   "bestScore": 57,
+   "complete": false,
+   "gamesPlayed": 0,
+   "bestTier": 0,
+   "bestScore": null,
    "allShort": false,
    "games": [
     {
      "n": 1,
-     "played": true,
-     "url": "https://youtu.be/TQEHLkzjl4k",
-     "matchId": 8946161660,
-     "duration": 3832,
-     "short": false,
-     "score": 57,
-     "tier": 1,
-     "estimated": false,
-     "comeback": 4577,
-     "swings": 2
+     "played": false
     },
     {
      "n": 2,
-     "played": true,
-     "url": "https://youtu.be/g2spOvi2gBY",
-     "matchId": 8946228708,
-     "duration": 2867,
-     "short": false,
-     "score": 44,
-     "tier": 1,
-     "estimated": false,
-     "comeback": 1267,
-     "swings": 0
+     "played": false
     },
     {
      "n": 3,
-     "played": true,
-     "url": "https://youtu.be/SbdUsaTXVEI",
-     "matchId": 8946285985,
-     "duration": 2477,
-     "short": false,
-     "score": 13,
-     "tier": 0,
-     "estimated": false,
-     "comeback": 0,
-     "swings": 0
+     "played": false
     }
    ]
   },
   {
    "id": "s026",
-   "stage": "Group Stage",
-   "round": "Round 4",
-   "start": 1786759200,
+   "stage": "Main Event",
+   "round": "Upper Bracket Semifinals",
+   "start": null,
    "teams": [
-    "Team Resilience",
-    "Team Yandex"
+    "TBD",
+    "TBD"
    ],
    "bo": 3,
-   "complete": true,
-   "gamesPlayed": 3,
+   "complete": false,
+   "gamesPlayed": 0,
    "bestTier": 0,
-   "bestScore": 35,
+   "bestScore": null,
    "allShort": false,
    "games": [
     {
      "n": 1,
-     "played": true,
-     "url": "https://youtu.be/yGSrmGxLrSk",
-     "matchId": 8946161629,
-     "duration": 3844,
-     "short": false,
-     "score": 18,
-     "tier": 0,
-     "estimated": false,
-     "comeback": 0,
-     "swings": 0
+     "played": false
     },
     {
      "n": 2,
-     "played": true,
-     "url": "https://youtu.be/-7x-z_itlc4",
-     "matchId": 8946228107,
-     "duration": 1102,
-     "short": true,
-     "score": 35,
-     "tier": 0,
-     "estimated": false,
-     "comeback": 0,
-     "swings": 0
+     "played": false
     },
     {
      "n": 3,
-     "played": true,
-     "url": "https://youtu.be/NvBcPIl0PqA",
-     "matchId": 8946260898,
-     "duration": 1820,
-     "short": true,
-     "score": 23,
-     "tier": 0,
-     "estimated": false,
-     "comeback": 0,
-     "swings": 0
+     "played": false
     }
    ]
   },
   {
    "id": "s027",
-   "stage": "Group Stage",
-   "round": "Round 4",
-   "start": 1786759200,
+   "stage": "Main Event",
+   "round": "Upper Bracket Quarterfinals",
+   "start": null,
    "teams": [
-    "OG",
-    "HULIGANI"
+    "TBD",
+    "TBD"
    ],
    "bo": 3,
-   "complete": true,
-   "gamesPlayed": 3,
-   "bestTier": 1,
-   "bestScore": 57,
+   "complete": false,
+   "gamesPlayed": 0,
+   "bestTier": 0,
+   "bestScore": null,
    "allShort": false,
    "games": [
     {
      "n": 1,
-     "played": true,
-     "url": "https://youtu.be/TwtYLp2gmHI",
-     "matchId": 8946161801,
-     "duration": 3655,
-     "short": false,
-     "score": 9,
-     "tier": 0,
-     "estimated": false,
-     "comeback": 0,
-     "swings": 0
+     "played": false
     },
     {
      "n": 2,
-     "played": true,
-     "url": "https://youtu.be/84Ws0dFD2SE",
-     "matchId": 8946227017,
-     "duration": 2959,
-     "short": false,
-     "score": 57,
-     "tier": 1,
-     "estimated": false,
-     "comeback": 1863,
-     "swings": 2
+     "played": false
     },
     {
      "n": 3,
-     "played": true,
-     "url": "https://youtu.be/wYOfwmtPdMA",
-     "matchId": 8946283971,
-     "duration": 2445,
-     "short": false,
-     "score": 13,
-     "tier": 0,
-     "estimated": false,
-     "comeback": 0,
-     "swings": 0
+     "played": false
     }
    ]
   },
   {
    "id": "s028",
-   "stage": "Group Stage",
-   "round": "Round 4",
-   "start": 1786771500,
+   "stage": "Main Event",
+   "round": "Upper Bracket Quarterfinals",
+   "start": null,
    "teams": [
-    "Nigma Galaxy",
-    "Vici Gaming"
+    "TBD",
+    "TBD"
    ],
    "bo": 3,
-   "complete": true,
-   "gamesPlayed": 2,
+   "complete": false,
+   "gamesPlayed": 0,
    "bestTier": 0,
-   "bestScore": 41,
+   "bestScore": null,
    "allShort": false,
    "games": [
     {
      "n": 1,
-     "played": true,
-     "url": "https://youtu.be/Mdl0Dh74xe8",
-     "matchId": 8946303764,
-     "duration": 3327,
-     "short": false,
-     "score": 41,
-     "tier": 0,
-     "estimated": false,
-     "comeback": 1490,
-     "swings": 0
+     "played": false
     },
     {
      "n": 2,
-     "played": true,
-     "url": "https://youtu.be/zl0Z5IAWexI",
-     "matchId": 8946386614,
-     "duration": 2377,
-     "short": false,
-     "score": 26,
-     "tier": 0,
-     "estimated": false,
-     "comeback": 0,
-     "swings": 0
+     "played": false
     },
     {
      "n": 3,
@@ -1537,861 +1411,36 @@ window.TI_DATA = {
   },
   {
    "id": "s029",
-   "stage": "Group Stage",
-   "round": "Round 4",
-   "start": 1786773600,
+   "stage": "Main Event",
+   "round": "Upper Bracket Semifinals",
+   "start": null,
    "teams": [
-    "Iron Wing",
-    "Team Liquid"
+    "TBD",
+    "TBD"
    ],
    "bo": 3,
-   "complete": true,
-   "gamesPlayed": 3,
-   "bestTier": 2,
-   "bestScore": 74,
+   "complete": false,
+   "gamesPlayed": 0,
+   "bestTier": 0,
+   "bestScore": null,
    "allShort": false,
    "games": [
     {
      "n": 1,
-     "played": true,
-     "url": "https://youtu.be/u--Xwn2ovqk",
-     "matchId": 8946337070,
-     "duration": 2802,
-     "short": false,
-     "score": 69,
-     "tier": 1,
-     "estimated": false,
-     "comeback": 8105,
-     "swings": 1
+     "played": false
     },
     {
      "n": 2,
-     "played": true,
-     "url": "https://youtu.be/kozaE_yqJLU",
-     "matchId": 8946414154,
-     "duration": 2380,
-     "short": false,
-     "score": 68,
-     "tier": 1,
-     "estimated": false,
-     "comeback": 1579,
-     "swings": 1
+     "played": false
     },
     {
      "n": 3,
-     "played": true,
-     "url": "https://youtu.be/LooQJi6X-Q0",
-     "matchId": 8946495628,
-     "duration": 2843,
-     "short": false,
-     "score": 74,
-     "tier": 2,
-     "estimated": false,
-     "comeback": 1714,
-     "swings": 2
+     "played": false
     }
    ]
   },
   {
    "id": "s030",
-   "stage": "Group Stage",
-   "round": "Round 4",
-   "start": 1786774200,
-   "teams": [
-    "BoomBoys",
-    "Aurora Gaming"
-   ],
-   "bo": 3,
-   "complete": true,
-   "gamesPlayed": 2,
-   "bestTier": 2,
-   "bestScore": 73,
-   "allShort": false,
-   "games": [
-    {
-     "n": 1,
-     "played": true,
-     "url": "https://youtu.be/Ocg4Sv5g_r4",
-     "matchId": 8946343023,
-     "duration": 2527,
-     "short": false,
-     "score": 73,
-     "tier": 2,
-     "estimated": false,
-     "comeback": 5939,
-     "swings": 1
-    },
-    {
-     "n": 2,
-     "played": true,
-     "url": "https://youtu.be/LVAXtWebwRE",
-     "matchId": 8946416702,
-     "duration": 2030,
-     "short": true,
-     "score": 23,
-     "tier": 0,
-     "estimated": false,
-     "comeback": 0,
-     "swings": 0
-    },
-    {
-     "n": 3,
-     "played": false
-    }
-   ]
-  },
-  {
-   "id": "s031",
-   "stage": "Group Stage",
-   "round": "Round 4",
-   "start": 1786774800,
-   "teams": [
-    "TEAM VISION",
-    "Team Spirit"
-   ],
-   "bo": 3,
-   "complete": true,
-   "gamesPlayed": 2,
-   "bestTier": 0,
-   "bestScore": 24,
-   "allShort": false,
-   "games": [
-    {
-     "n": 1,
-     "played": true,
-     "url": "https://youtu.be/V-P0Qk0zowo",
-     "matchId": 8946351114,
-     "duration": 2231,
-     "short": false,
-     "score": 15,
-     "tier": 0,
-     "estimated": false,
-     "comeback": 0,
-     "swings": 0
-    },
-    {
-     "n": 2,
-     "played": true,
-     "url": "https://youtu.be/D738SKFiCxE",
-     "matchId": 8946428867,
-     "duration": 3230,
-     "short": false,
-     "score": 24,
-     "tier": 0,
-     "estimated": false,
-     "comeback": 388,
-     "swings": 0
-    },
-    {
-     "n": 3,
-     "played": false
-    }
-   ]
-  },
-  {
-   "id": "s032",
-   "stage": "Group Stage",
-   "round": "Round 5",
-   "start": 1786786200,
-   "teams": [
-    "Team Resilience",
-    "Xtreme Gaming"
-   ],
-   "bo": 3,
-   "complete": true,
-   "gamesPlayed": 2,
-   "bestTier": 0,
-   "bestScore": 28,
-   "allShort": false,
-   "games": [
-    {
-     "n": 1,
-     "played": true,
-     "url": "https://youtu.be/j9ptOikrSNQ",
-     "matchId": 8946552436,
-     "duration": 2052,
-     "short": true,
-     "score": 23,
-     "tier": 0,
-     "estimated": false,
-     "comeback": 0,
-     "swings": 0
-    },
-    {
-     "n": 2,
-     "played": true,
-     "url": "https://youtu.be/-1R7hmpHzN8",
-     "matchId": 8946650558,
-     "duration": 2135,
-     "short": false,
-     "score": 28,
-     "tier": 0,
-     "estimated": false,
-     "comeback": 0,
-     "swings": 0
-    },
-    {
-     "n": 3,
-     "played": false
-    }
-   ]
-  },
-  {
-   "id": "s033",
-   "stage": "Group Stage",
-   "round": "Round 5",
-   "start": 1786786200,
-   "teams": [
-    "OG",
-    "GamerLegion"
-   ],
-   "bo": 3,
-   "complete": true,
-   "gamesPlayed": 2,
-   "bestTier": 0,
-   "bestScore": 27,
-   "allShort": true,
-   "games": [
-    {
-     "n": 1,
-     "played": true,
-     "url": "https://youtu.be/Kg3E5slYTEU",
-     "matchId": 8946563158,
-     "duration": 2069,
-     "short": true,
-     "score": 13,
-     "tier": 0,
-     "estimated": false,
-     "comeback": 0,
-     "swings": 0
-    },
-    {
-     "n": 2,
-     "played": true,
-     "url": "https://youtu.be/PE_gAsyJjWc",
-     "matchId": 8946649932,
-     "duration": 1904,
-     "short": true,
-     "score": 27,
-     "tier": 0,
-     "estimated": false,
-     "comeback": 0,
-     "swings": 0
-    },
-    {
-     "n": 3,
-     "played": false
-    }
-   ]
-  },
-  {
-   "id": "s034",
-   "stage": "Group Stage",
-   "round": "Round 5",
-   "start": 1786786800,
-   "teams": [
-    "LGD Gaming",
-    "Vici Gaming"
-   ],
-   "bo": 3,
-   "complete": true,
-   "gamesPlayed": 2,
-   "bestTier": 0,
-   "bestScore": 29,
-   "allShort": false,
-   "games": [
-    {
-     "n": 1,
-     "played": true,
-     "url": "https://youtu.be/TgLnB3ZLAyU",
-     "matchId": 8946572751,
-     "duration": 3226,
-     "short": false,
-     "score": 18,
-     "tier": 0,
-     "estimated": false,
-     "comeback": 0,
-     "swings": 0
-    },
-    {
-     "n": 2,
-     "played": true,
-     "url": "https://youtu.be/xKvEkrduRx0",
-     "matchId": 8946690366,
-     "duration": 3153,
-     "short": false,
-     "score": 29,
-     "tier": 0,
-     "estimated": false,
-     "comeback": 0,
-     "swings": 0
-    },
-    {
-     "n": 3,
-     "played": false
-    }
-   ]
-  },
-  {
-   "id": "s035",
-   "stage": "Group Stage",
-   "round": "Round 5",
-   "start": 1786790400,
-   "teams": [
-    "BoomBoys",
-    "Team Falcons"
-   ],
-   "bo": 3,
-   "complete": true,
-   "gamesPlayed": 3,
-   "bestTier": 2,
-   "bestScore": 77,
-   "allShort": false,
-   "games": [
-    {
-     "n": 1,
-     "played": true,
-     "url": "https://youtu.be/H2eKRN0faEc",
-     "matchId": 8946648249,
-     "duration": 2350,
-     "short": false,
-     "score": 77,
-     "tier": 2,
-     "estimated": false,
-     "comeback": 7779,
-     "swings": 1
-    },
-    {
-     "n": 2,
-     "played": true,
-     "url": "https://youtu.be/X5iSB8jnWuM",
-     "matchId": 8946758310,
-     "duration": 2323,
-     "short": false,
-     "score": 25,
-     "tier": 0,
-     "estimated": false,
-     "comeback": 0,
-     "swings": 0
-    },
-    {
-     "n": 3,
-     "played": true,
-     "url": "https://youtu.be/Kc7yYqXPygo",
-     "matchId": 8946889239,
-     "duration": 2697,
-     "short": false,
-     "score": 23,
-     "tier": 0,
-     "estimated": false,
-     "comeback": 0,
-     "swings": 0
-    }
-   ]
-  },
-  {
-   "id": "s036",
-   "stage": "Group Stage",
-   "round": "Round 5",
-   "start": 1786794300,
-   "teams": [
-    "Iron Wing",
-    "Team Yandex"
-   ],
-   "bo": 3,
-   "complete": true,
-   "gamesPlayed": 3,
-   "bestTier": 1,
-   "bestScore": 63,
-   "allShort": false,
-   "games": [
-    {
-     "n": 1,
-     "played": true,
-     "url": "https://youtu.be/jWnaOz34X0E",
-     "matchId": 8946735226,
-     "duration": 2388,
-     "short": false,
-     "score": 25,
-     "tier": 0,
-     "estimated": false,
-     "comeback": 0,
-     "swings": 0
-    },
-    {
-     "n": 2,
-     "played": true,
-     "url": "https://youtu.be/wrAXUzD-aS4",
-     "matchId": 8946872708,
-     "duration": 2131,
-     "short": false,
-     "score": 17,
-     "tier": 0,
-     "estimated": false,
-     "comeback": 0,
-     "swings": 0
-    },
-    {
-     "n": 3,
-     "played": true,
-     "url": "https://youtu.be/CRNStTd5DLY",
-     "matchId": 8947008125,
-     "duration": 3254,
-     "short": false,
-     "score": 63,
-     "tier": 1,
-     "estimated": false,
-     "comeback": 4089,
-     "swings": 1
-    }
-   ]
-  },
-  {
-   "id": "s037",
-   "stage": "Group Stage",
-   "round": "Round 5",
-   "start": 1786794600,
-   "teams": [
-    "Team Liquid",
-    "Aurora Gaming"
-   ],
-   "bo": 3,
-   "complete": true,
-   "gamesPlayed": 3,
-   "bestTier": 1,
-   "bestScore": 70,
-   "allShort": false,
-   "games": [
-    {
-     "n": 1,
-     "played": true,
-     "url": "https://youtu.be/YH5L1nS_4FI",
-     "matchId": 8946740853,
-     "duration": 1656,
-     "short": true,
-     "score": 22,
-     "tier": 0,
-     "estimated": false,
-     "comeback": 0,
-     "swings": 0
-    },
-    {
-     "n": 2,
-     "played": true,
-     "url": "https://youtu.be/0jeActGvt6I",
-     "matchId": 8946860406,
-     "duration": 2130,
-     "short": false,
-     "score": 70,
-     "tier": 1,
-     "estimated": false,
-     "comeback": 1711,
-     "swings": 1
-    },
-    {
-     "n": 3,
-     "played": true,
-     "url": "https://youtu.be/gDHL5SX8Ywk",
-     "matchId": 8946996385,
-     "duration": 2512,
-     "short": false,
-     "score": 70,
-     "tier": 1,
-     "estimated": false,
-     "comeback": 1690,
-     "swings": 1
-    }
-   ]
-  },
-  {
-   "id": "s038",
-   "stage": "Group Stage",
-   "round": "Round 5",
-   "start": 1786798500,
-   "teams": [
-    "Nigma Galaxy",
-    "Team Spirit"
-   ],
-   "bo": 3,
-   "complete": true,
-   "gamesPlayed": 2,
-   "bestTier": 2,
-   "bestScore": 82,
-   "allShort": false,
-   "games": [
-    {
-     "n": 1,
-     "played": true,
-     "url": "https://youtu.be/D2yKoF0bcak",
-     "matchId": 8946858055,
-     "duration": 3556,
-     "short": false,
-     "score": 82,
-     "tier": 2,
-     "estimated": false,
-     "comeback": 5938,
-     "swings": 1
-    },
-    {
-     "n": 2,
-     "played": true,
-     "url": "https://youtu.be/RfG7lr8fGE8",
-     "matchId": 8947050343,
-     "duration": 3661,
-     "short": false,
-     "score": 76,
-     "tier": 2,
-     "estimated": false,
-     "comeback": 8227,
-     "swings": 2
-    },
-    {
-     "n": 3,
-     "played": false
-    }
-   ]
-  },
-  {
-   "id": "s039",
-   "stage": "Group Stage",
-   "round": "Elimination Round",
-   "start": 1786845600,
-   "teams": [
-    "Team Falcons",
-    "Vici Gaming"
-   ],
-   "bo": 3,
-   "complete": false,
-   "gamesPlayed": 1,
-   "bestTier": 0,
-   "bestScore": 9,
-   "allShort": false,
-   "games": [
-    {
-     "n": 1,
-     "played": true,
-     "url": null,
-     "matchId": 8947983249,
-     "duration": 2446,
-     "short": false,
-     "score": 9,
-     "tier": 0,
-     "estimated": false,
-     "comeback": 0,
-     "swings": 0
-    },
-    {
-     "n": 2,
-     "played": false
-    },
-    {
-     "n": 3,
-     "played": false
-    }
-   ]
-  },
-  {
-   "id": "s040",
-   "stage": "Group Stage",
-   "round": "Elimination Round",
-   "start": 1786849200,
-   "teams": [
-    "Aurora Gaming",
-    "BoomBoys"
-   ],
-   "bo": 3,
-   "complete": false,
-   "gamesPlayed": 0,
-   "bestTier": 0,
-   "bestScore": null,
-   "allShort": false,
-   "games": [
-    {
-     "n": 1,
-     "played": false
-    },
-    {
-     "n": 2,
-     "played": false
-    },
-    {
-     "n": 3,
-     "played": false
-    }
-   ]
-  },
-  {
-   "id": "s041",
-   "stage": "Group Stage",
-   "round": "Elimination Round",
-   "start": 1786856400,
-   "teams": [
-    "Team Spirit",
-    "Team Resilience"
-   ],
-   "bo": 3,
-   "complete": false,
-   "gamesPlayed": 0,
-   "bestTier": 0,
-   "bestScore": null,
-   "allShort": false,
-   "games": [
-    {
-     "n": 1,
-     "played": false
-    },
-    {
-     "n": 2,
-     "played": false
-    },
-    {
-     "n": 3,
-     "played": false
-    }
-   ]
-  },
-  {
-   "id": "s042",
-   "stage": "Group Stage",
-   "round": "Elimination Round",
-   "start": 1786860000,
-   "teams": [
-    "Iron Wing",
-    "GamerLegion"
-   ],
-   "bo": 3,
-   "complete": false,
-   "gamesPlayed": 0,
-   "bestTier": 0,
-   "bestScore": null,
-   "allShort": false,
-   "games": [
-    {
-     "n": 1,
-     "played": false
-    },
-    {
-     "n": 2,
-     "played": false
-    },
-    {
-     "n": 3,
-     "played": false
-    }
-   ]
-  },
-  {
-   "id": "s043",
-   "stage": "Group Stage",
-   "round": "Elimination Round",
-   "start": 1786867200,
-   "teams": [
-    "LGD Gaming",
-    "Team Yandex"
-   ],
-   "bo": 3,
-   "complete": false,
-   "gamesPlayed": 0,
-   "bestTier": 0,
-   "bestScore": null,
-   "allShort": false,
-   "games": [
-    {
-     "n": 1,
-     "played": false
-    },
-    {
-     "n": 2,
-     "played": false
-    },
-    {
-     "n": 3,
-     "played": false
-    }
-   ]
-  },
-  {
-   "id": "s044",
-   "stage": "Main Event",
-   "round": "Upper Bracket Quarterfinals",
-   "start": null,
-   "teams": [
-    "TBD",
-    "TBD"
-   ],
-   "bo": 3,
-   "complete": false,
-   "gamesPlayed": 0,
-   "bestTier": 0,
-   "bestScore": null,
-   "allShort": false,
-   "games": [
-    {
-     "n": 1,
-     "played": false
-    },
-    {
-     "n": 2,
-     "played": false
-    },
-    {
-     "n": 3,
-     "played": false
-    }
-   ]
-  },
-  {
-   "id": "s045",
-   "stage": "Main Event",
-   "round": "Upper Bracket Quarterfinals",
-   "start": null,
-   "teams": [
-    "TBD",
-    "TBD"
-   ],
-   "bo": 3,
-   "complete": false,
-   "gamesPlayed": 0,
-   "bestTier": 0,
-   "bestScore": null,
-   "allShort": false,
-   "games": [
-    {
-     "n": 1,
-     "played": false
-    },
-    {
-     "n": 2,
-     "played": false
-    },
-    {
-     "n": 3,
-     "played": false
-    }
-   ]
-  },
-  {
-   "id": "s046",
-   "stage": "Main Event",
-   "round": "Upper Bracket Semifinals",
-   "start": null,
-   "teams": [
-    "TBD",
-    "TBD"
-   ],
-   "bo": 3,
-   "complete": false,
-   "gamesPlayed": 0,
-   "bestTier": 0,
-   "bestScore": null,
-   "allShort": false,
-   "games": [
-    {
-     "n": 1,
-     "played": false
-    },
-    {
-     "n": 2,
-     "played": false
-    },
-    {
-     "n": 3,
-     "played": false
-    }
-   ]
-  },
-  {
-   "id": "s047",
-   "stage": "Main Event",
-   "round": "Upper Bracket Quarterfinals",
-   "start": null,
-   "teams": [
-    "TBD",
-    "TBD"
-   ],
-   "bo": 3,
-   "complete": false,
-   "gamesPlayed": 0,
-   "bestTier": 0,
-   "bestScore": null,
-   "allShort": false,
-   "games": [
-    {
-     "n": 1,
-     "played": false
-    },
-    {
-     "n": 2,
-     "played": false
-    },
-    {
-     "n": 3,
-     "played": false
-    }
-   ]
-  },
-  {
-   "id": "s048",
-   "stage": "Main Event",
-   "round": "Upper Bracket Quarterfinals",
-   "start": null,
-   "teams": [
-    "TBD",
-    "TBD"
-   ],
-   "bo": 3,
-   "complete": false,
-   "gamesPlayed": 0,
-   "bestTier": 0,
-   "bestScore": null,
-   "allShort": false,
-   "games": [
-    {
-     "n": 1,
-     "played": false
-    },
-    {
-     "n": 2,
-     "played": false
-    },
-    {
-     "n": 3,
-     "played": false
-    }
-   ]
-  },
-  {
-   "id": "s049",
-   "stage": "Main Event",
-   "round": "Upper Bracket Semifinals",
-   "start": null,
-   "teams": [
-    "TBD",
-    "TBD"
-   ],
-   "bo": 3,
-   "complete": false,
-   "gamesPlayed": 0,
-   "bestTier": 0,
-   "bestScore": null,
-   "allShort": false,
-   "games": [
-    {
-     "n": 1,
-     "played": false
-    },
-    {
-     "n": 2,
-     "played": false
-    },
-    {
-     "n": 3,
-     "played": false
-    }
-   ]
-  },
-  {
-   "id": "s050",
    "stage": "Main Event",
    "round": "Upper Bracket Final",
    "start": null,
@@ -2421,7 +1470,7 @@ window.TI_DATA = {
    ]
   },
   {
-   "id": "s051",
+   "id": "s031",
    "stage": "Main Event",
    "round": "Lower Bracket Round 1",
    "start": null,
@@ -2451,7 +1500,7 @@ window.TI_DATA = {
    ]
   },
   {
-   "id": "s052",
+   "id": "s032",
    "stage": "Main Event",
    "round": "Lower Bracket Quarterfinals",
    "start": null,
@@ -2481,7 +1530,7 @@ window.TI_DATA = {
    ]
   },
   {
-   "id": "s053",
+   "id": "s033",
    "stage": "Main Event",
    "round": "Lower Bracket Round 1",
    "start": null,
@@ -2511,7 +1560,7 @@ window.TI_DATA = {
    ]
   },
   {
-   "id": "s054",
+   "id": "s034",
    "stage": "Main Event",
    "round": "Lower Bracket Quarterfinals",
    "start": null,
@@ -2541,7 +1590,7 @@ window.TI_DATA = {
    ]
   },
   {
-   "id": "s055",
+   "id": "s035",
    "stage": "Main Event",
    "round": "Lower Bracket Semifinals",
    "start": null,
@@ -2571,7 +1620,7 @@ window.TI_DATA = {
    ]
   },
   {
-   "id": "s056",
+   "id": "s036",
    "stage": "Main Event",
    "round": "Lower Bracket Final",
    "start": null,
@@ -2601,7 +1650,7 @@ window.TI_DATA = {
    ]
   },
   {
-   "id": "s057",
+   "id": "s037",
    "stage": "Main Event",
    "round": "Grand Final",
    "start": null,
