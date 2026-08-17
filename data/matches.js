@@ -6,7 +6,7 @@ window.TI_DATA = {
   "city": "Shanghai, China",
   "dates": "August 13-23, 2026"
  },
- "generated": 1786931852,
+ "generated": 1786939574,
  "series": [
   {
    "id": "s000",
@@ -2708,7 +2708,7 @@ window.TI_DATA = {
     "TBD",
     "TBD"
    ],
-   "bo": 3,
+   "bo": 5,
    "complete": false,
    "gamesPlayed": 0,
    "bestTier": 0,
@@ -2725,6 +2725,14 @@ window.TI_DATA = {
     },
     {
      "n": 3,
+     "played": false
+    },
+    {
+     "n": 4,
+     "played": false
+    },
+    {
+     "n": 5,
      "played": false
     }
    ]
