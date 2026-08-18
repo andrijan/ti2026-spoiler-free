@@ -14,6 +14,14 @@ Usage
 
 Run it every day or two while the tournament is live; new games appear
 automatically as Liquipedia adds the VOD links.
+
+Failure policy
+--------------
+Both sources rate-limit, and a half-fetched tournament is worse than a stale
+one: it blanks out part of the site. So a source that cannot be reached falls
+back to its cached copy, and if even that is missing the run exits non-zero
+*without* touching data/matches.js. The same goes for a run that would emit
+fewer series or games than the file already on disk -- see --allow-shrink.
 """
 
 import argparse
@@ -39,6 +47,31 @@ LP_PAGES = [
 UA = "TI2026SpoilerFreeSite/1.0 (personal use)"
 
 SHORT_GAME_SECONDS = 35 * 60
+
+
+def warn(msg):
+    """Loud on a terminal, and an annotation on the Actions run summary."""
+    if os.environ.get("GITHUB_ACTIONS"):
+        print(f"::warning::{msg}")
+    print(f"  ! {msg}", file=sys.stderr)
+
+
+# --------------------------------------------------------------------------
+# cache (raw API responses, so re-runs are cheap -- and so a source being
+# briefly unavailable degrades to yesterday's answer instead of to nothing)
+# --------------------------------------------------------------------------
+def load_cache(name, default):
+    path = os.path.join(CACHE_DIR, name)
+    if os.path.exists(path):
+        with open(path) as fh:
+            return json.load(fh)
+    return default
+
+
+def save_cache(name, obj):
+    os.makedirs(CACHE_DIR, exist_ok=True)
+    with open(os.path.join(CACHE_DIR, name), "w") as fh:
+        json.dump(obj, fh)
 
 
 # --------------------------------------------------------------------------
@@ -71,9 +104,42 @@ def fetch_liquipedia(page):
     )
     doc = get(url)
     if not doc or "parse" not in doc:
-        print(f"  ! could not load Liquipedia page: {page}", file=sys.stderr)
+        # Usually Liquipedia's rate limiter, which answers with an HTML error
+        # page rather than JSON. The caller falls back to the parsed cache.
+        warn(f"could not load Liquipedia page: {page}")
         return None
     return doc["parse"]["text"]["*"]
+
+
+def lp_cache_name(stage_name):
+    return "lp_" + re.sub(r"[^a-z0-9]+", "_", stage_name.lower()).strip("_") + ".json"
+
+
+def liquipedia_series(page, stage_name):
+    """Series for one stage, from the network if possible and cache if not.
+
+    Returns (series, stale). A stage that yields nothing is treated as a
+    failure, not as an empty stage: Liquipedia lists every matchup of a stage
+    as soon as the stage exists, so zero series means we were rate-limited or
+    the page layout moved -- never that there is genuinely nothing to show.
+    """
+    cache_name = lp_cache_name(stage_name)
+    markup = fetch_liquipedia(page)
+    found = parse_liquipedia(markup, stage_name) if markup else []
+    if found:
+        save_cache(cache_name, found)
+        return found, False
+
+    if markup:
+        warn(f"{stage_name}: page loaded but no series parsed -- layout may have changed")
+    cached = load_cache(cache_name, [])
+    for s in cached:
+        # Game numbers are ints everywhere else, but JSON object keys are
+        # always strings -- without this the VOD links silently vanish.
+        s["vods"] = {int(k): v for k, v in s["vods"].items()}
+    if cached:
+        warn(f"{stage_name}: using last known good data ({len(cached)} series)")
+    return cached, True
 
 
 def strip_tags(s):
@@ -204,20 +270,6 @@ def parse_liquipedia(markup, stage_name):
 # --------------------------------------------------------------------------
 # OpenDota: durations + replay stats
 # --------------------------------------------------------------------------
-def load_cache(name, default):
-    path = os.path.join(CACHE_DIR, name)
-    if os.path.exists(path):
-        with open(path) as fh:
-            return json.load(fh)
-    return default
-
-
-def save_cache(name, obj):
-    os.makedirs(CACHE_DIR, exist_ok=True)
-    with open(os.path.join(CACHE_DIR, name), "w") as fh:
-        json.dump(obj, fh)
-
-
 def fetch_team_names(team_ids):
     names = load_cache("teams.json", {})
     missing = [t for t in team_ids if str(t) not in names]
@@ -363,17 +415,72 @@ def score_games(stats):
 # --------------------------------------------------------------------------
 # join + emit
 # --------------------------------------------------------------------------
-def build():
+def previous_payload():
+    """The matches.js already on disk, or None. It is JSON behind one prefix."""
+    path = os.path.join(DATA_DIR, "matches.js")
+    if not os.path.exists(path):
+        return None
+    with open(path) as fh:
+        text = fh.read()
+    start, end = text.find("{"), text.rfind("}")
+    if start < 0 or end < start:
+        return None
+    try:
+        return json.loads(text[start : end + 1])
+    except ValueError:
+        return None
+
+
+def check_not_a_regression(series_count, game_count, allow_shrink=False):
+    """Never overwrite good data with less data.
+
+    A TI bracket only ever grows: series get added as stages are announced and
+    games get added as they are played. So fewer of either than last time means
+    this run saw a partial view of the world, and publishing it would blank out
+    part of the site. Refuse, and leave the last good file in place.
+    """
+    if not series_count:
+        sys.exit(
+            "Refusing to write an empty dataset (0 series).\n"
+            "data/matches.js is unchanged -- try again shortly."
+        )
+
+    prev = previous_payload()
+    if not prev or allow_shrink:
+        return
+    prev_series = prev.get("series") or []
+    prev_games = sum(1 for s in prev_series for g in s.get("games", []) if g.get("played"))
+    if series_count < len(prev_series) or game_count < prev_games:
+        sys.exit(
+            f"Refusing to shrink the dataset: {len(prev_series)} series / {prev_games} games "
+            f"on disk, {series_count} / {game_count} this run.\n"
+            "data/matches.js is unchanged. Re-run with --allow-shrink if this is intentional."
+        )
+
+
+def build(allow_shrink=False):
     print("Liquipedia: schedule + VOD links")
     lp_series = []
+    unavailable = []
     for page, stage in LP_PAGES:
-        markup = fetch_liquipedia(page)
-        if not markup:
+        found, stale = liquipedia_series(page, stage)
+        if not found:
+            unavailable.append(stage)
             continue
-        found = parse_liquipedia(markup, stage)
-        print(f"  {stage}: {len(found)} series, {sum(len(s['vods']) for s in found)} VODs")
+        print(
+            f"  {stage}: {len(found)} series, {sum(len(s['vods']) for s in found)} VODs"
+            + (" (cached)" if stale else "")
+        )
         lp_series += found
         time.sleep(1)
+
+    # Neither live nor cached: writing now would publish a stage-shaped hole.
+    if unavailable:
+        sys.exit(
+            "Liquipedia unavailable and nothing cached for: "
+            + ", ".join(unavailable)
+            + "\nLeaving data/matches.js untouched -- try again shortly."
+        )
 
     print("OpenDota: durations + replay stats")
     od_matches = get(f"https://api.opendota.com/api/leagues/{LEAGUE_ID}/matches")
@@ -484,6 +591,9 @@ def build():
         "series": out_series,
     }
 
+    total_games = sum(1 for s in out_series for g in s["games"] if g.get("played"))
+    check_not_a_regression(len(out_series), total_games, allow_shrink)
+
     os.makedirs(DATA_DIR, exist_ok=True)
     with open(os.path.join(DATA_DIR, "matches.js"), "w") as fh:
         fh.write("// Generated by update.py -- do not edit by hand.\n")
@@ -491,7 +601,6 @@ def build():
         json.dump(payload, fh, indent=1)
         fh.write(";\n")
 
-    total_games = sum(1 for s in out_series for g in s["games"] if g.get("played"))
     missing = sum(1 for s in out_series for g in s["games"] if g.get("played") and not g.get("url"))
     print(
         f"\nWrote data/matches.js: {len(out_series)} series, {total_games} games"
@@ -503,7 +612,12 @@ def build():
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--full", action="store_true", help="ignore the per-game stats cache")
+    ap.add_argument(
+        "--allow-shrink",
+        action="store_true",
+        help="write even if there are fewer series/games than the file on disk",
+    )
     args = ap.parse_args()
     if args.full and os.path.exists(os.path.join(CACHE_DIR, "games.json")):
         os.remove(os.path.join(CACHE_DIR, "games.json"))
-    build()
+    build(allow_shrink=args.allow_shrink)

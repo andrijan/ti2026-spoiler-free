@@ -73,13 +73,30 @@ teams qualify.
 Only `python3` is required — standard library plus `curl`, no packages to
 install.
 
+### When a source is down
+
+Liquipedia and OpenDota both rate-limit, and they answer a throttled request
+with an error page rather than an error code. A partial fetch is worse than a
+stale one — it blanks out whichever stage failed — so `update.py` never
+publishes one:
+
+- a source that can't be reached falls back to its cached copy, and the run
+  still succeeds with a warning;
+- if there's no cache to fall back on, or the result would have *fewer* series
+  or games than `data/matches.js` already holds, the run exits non-zero and
+  leaves the file untouched. In CI that shows up as a failed run and the site
+  keeps serving the last good data until the next scheduled attempt.
+
+`python3 update.py --allow-shrink` overrides that last check, for the rare case
+where a smaller dataset is genuinely correct.
+
 ## Files
 
 | Path | |
 | --- | --- |
 | `index.html`, `styles.css`, `app.js` | the site |
 | `data/matches.js` | generated data (`window.TI_DATA`) |
-| `data/.cache/` | raw API responses, so re-runs are cheap |
+| `data/.cache/` | raw API responses — makes re-runs cheap, and is the fallback when a source is down |
 | `update.py` | fetch + join + score pipeline |
 
 Schedule and VOD links come from [Liquipedia](https://liquipedia.net/dota2/The_International/2026),
