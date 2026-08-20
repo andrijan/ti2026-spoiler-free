@@ -6,7 +6,7 @@ window.TI_DATA = {
   "city": "Shanghai, China",
   "dates": "August 13-23, 2026"
  },
- "generated": 1787219570,
+ "generated": 1787231715,
  "series": [
   {
    "id": "s000",
@@ -375,7 +375,7 @@ window.TI_DATA = {
    "complete": true,
    "gamesPlayed": 2,
    "bestTier": 0,
-   "bestScore": 22,
+   "bestScore": 21,
    "allShort": false,
    "games": [
     {
@@ -398,7 +398,7 @@ window.TI_DATA = {
      "matchId": 8943182700,
      "duration": 2927,
      "short": false,
-     "score": 22,
+     "score": 21,
      "tier": 0,
      "estimated": false,
      "comeback": 0,
@@ -516,7 +516,7 @@ window.TI_DATA = {
      "matchId": 8943466067,
      "duration": 4282,
      "short": false,
-     "score": 59,
+     "score": 58,
      "tier": 1,
      "estimated": false,
      "comeback": 5515,
@@ -585,7 +585,7 @@ window.TI_DATA = {
    "complete": true,
    "gamesPlayed": 3,
    "bestTier": 2,
-   "bestScore": 77,
+   "bestScore": 76,
    "allShort": false,
    "games": [
     {
@@ -595,7 +595,7 @@ window.TI_DATA = {
      "matchId": 8943267925,
      "duration": 2690,
      "short": false,
-     "score": 77,
+     "score": 76,
      "tier": 2,
      "estimated": false,
      "comeback": 7066,
@@ -621,7 +621,7 @@ window.TI_DATA = {
      "matchId": 8943477775,
      "duration": 5678,
      "short": false,
-     "score": 51,
+     "score": 50,
      "tier": 1,
      "estimated": false,
      "comeback": 4904,
@@ -971,7 +971,7 @@ window.TI_DATA = {
      "matchId": 8944695348,
      "duration": 2841,
      "short": false,
-     "score": 17,
+     "score": 16,
      "tier": 0,
      "estimated": false,
      "comeback": 0,
@@ -1005,7 +1005,7 @@ window.TI_DATA = {
    "complete": true,
    "gamesPlayed": 2,
    "bestTier": 0,
-   "bestScore": 34,
+   "bestScore": 35,
    "allShort": false,
    "games": [
     {
@@ -1015,7 +1015,7 @@ window.TI_DATA = {
      "matchId": 8944628326,
      "duration": 3276,
      "short": false,
-     "score": 14,
+     "score": 13,
      "tier": 0,
      "estimated": false,
      "comeback": 0,
@@ -1028,7 +1028,7 @@ window.TI_DATA = {
      "matchId": 8944692094,
      "duration": 1961,
      "short": true,
-     "score": 34,
+     "score": 35,
      "tier": 0,
      "estimated": false,
      "comeback": 0,
@@ -1238,7 +1238,7 @@ window.TI_DATA = {
      "matchId": 8944931337,
      "duration": 2421,
      "short": false,
-     "score": 18,
+     "score": 17,
      "tier": 0,
      "estimated": false,
      "comeback": 0,
@@ -1422,7 +1422,7 @@ window.TI_DATA = {
      "matchId": 8946260898,
      "duration": 1820,
      "short": true,
-     "score": 22,
+     "score": 23,
      "tier": 0,
      "estimated": false,
      "comeback": 0,
@@ -1605,7 +1605,7 @@ window.TI_DATA = {
    "complete": true,
    "gamesPlayed": 2,
    "bestTier": 2,
-   "bestScore": 73,
+   "bestScore": 72,
    "allShort": false,
    "games": [
     {
@@ -1615,7 +1615,7 @@ window.TI_DATA = {
      "matchId": 8946343023,
      "duration": 2527,
      "short": false,
-     "score": 73,
+     "score": 72,
      "tier": 2,
      "estimated": false,
      "comeback": 5939,
@@ -1797,7 +1797,7 @@ window.TI_DATA = {
    "complete": true,
    "gamesPlayed": 2,
    "bestTier": 0,
-   "bestScore": 29,
+   "bestScore": 28,
    "allShort": false,
    "games": [
     {
@@ -1820,7 +1820,7 @@ window.TI_DATA = {
      "matchId": 8946690366,
      "duration": 3153,
      "short": false,
-     "score": 29,
+     "score": 28,
      "tier": 0,
      "estimated": false,
      "comeback": 0,
@@ -2217,7 +2217,7 @@ window.TI_DATA = {
    "complete": true,
    "gamesPlayed": 2,
    "bestTier": 0,
-   "bestScore": 24,
+   "bestScore": 23,
    "allShort": false,
    "games": [
     {
@@ -2227,7 +2227,7 @@ window.TI_DATA = {
      "matchId": 8948155771,
      "duration": 2221,
      "short": false,
-     "score": 24,
+     "score": 23,
      "tier": 0,
      "estimated": false,
      "comeback": 0,
@@ -2322,7 +2322,7 @@ window.TI_DATA = {
    "complete": true,
    "gamesPlayed": 2,
    "bestTier": 2,
-   "bestScore": 79,
+   "bestScore": 78,
    "allShort": false,
    "games": [
     {
@@ -2332,7 +2332,7 @@ window.TI_DATA = {
      "matchId": 8955197224,
      "duration": 3744,
      "short": false,
-     "score": 79,
+     "score": 78,
      "tier": 2,
      "estimated": false,
      "comeback": 4464,
@@ -2380,7 +2380,7 @@ window.TI_DATA = {
      "matchId": 8955304019,
      "duration": 4647,
      "short": false,
-     "score": 26,
+     "score": 27,
      "tier": 0,
      "estimated": false,
      "comeback": 1211,
@@ -2402,13 +2402,13 @@ window.TI_DATA = {
     {
      "n": 3,
      "played": true,
-     "url": null,
+     "url": "https://youtu.be/uqXtZ3U25Bw",
      "matchId": 8955456108,
      "duration": 1859,
      "short": true,
-     "score": 56,
-     "tier": 1,
-     "estimated": true,
+     "score": 25,
+     "tier": 0,
+     "estimated": false,
      "comeback": 0,
      "swings": 0
     }
@@ -2418,25 +2418,43 @@ window.TI_DATA = {
    "id": "s046",
    "stage": "Main Event",
    "round": "Upper Bracket Quarterfinals",
-   "start": 1787220000,
+   "start": 1787221800,
    "teams": [
     "Team Liquid",
     "Team Yandex"
    ],
    "bo": 3,
-   "complete": false,
-   "gamesPlayed": 0,
-   "bestTier": 0,
-   "bestScore": null,
+   "complete": true,
+   "gamesPlayed": 2,
+   "bestTier": 2,
+   "bestScore": 84,
    "allShort": false,
    "games": [
     {
      "n": 1,
-     "played": false
+     "played": true,
+     "url": "https://youtu.be/U60ztmQlplA",
+     "matchId": 8955549026,
+     "duration": 3268,
+     "short": false,
+     "score": 84,
+     "tier": 2,
+     "estimated": false,
+     "comeback": 22617,
+     "swings": 2
     },
     {
      "n": 2,
-     "played": false
+     "played": true,
+     "url": null,
+     "matchId": 8955653541,
+     "duration": 2308,
+     "short": false,
+     "score": 17,
+     "tier": 0,
+     "estimated": false,
+     "comeback": 0,
+     "swings": 0
     },
     {
      "n": 3,
@@ -2448,7 +2466,7 @@ window.TI_DATA = {
    "id": "s047",
    "stage": "Main Event",
    "round": "Upper Bracket Quarterfinals",
-   "start": 1787229000,
+   "start": 1787231700,
    "teams": [
     "Nigma Galaxy",
     "Team Falcons"
@@ -2510,7 +2528,7 @@ window.TI_DATA = {
    "round": "Lower Bracket Round 1",
    "start": 1787288400,
    "teams": [
-    "TBD",
+    "Team Liquid",
     "TBD"
    ],
    "bo": 3,
@@ -2570,7 +2588,7 @@ window.TI_DATA = {
    "round": "Upper Bracket Semifinals",
    "start": 1787310000,
    "teams": [
-    "TBD",
+    "Team Yandex",
     "TBD"
    ],
    "bo": 3,
