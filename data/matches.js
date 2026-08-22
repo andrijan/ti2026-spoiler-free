@@ -6,7 +6,7 @@ window.TI_DATA = {
   "city": "Shanghai, China",
   "dates": "August 13-23, 2026"
  },
- "generated": 1787403833,
+ "generated": 1787413165,
  "series": [
   {
    "id": "s000",
@@ -327,7 +327,7 @@ window.TI_DATA = {
    "complete": true,
    "gamesPlayed": 2,
    "bestTier": 2,
-   "bestScore": 75,
+   "bestScore": 76,
    "allShort": false,
    "games": [
     {
@@ -350,7 +350,7 @@ window.TI_DATA = {
      "matchId": 8943200897,
      "duration": 2908,
      "short": false,
-     "score": 75,
+     "score": 76,
      "tier": 2,
      "estimated": false,
      "comeback": 5556,
@@ -375,7 +375,7 @@ window.TI_DATA = {
    "complete": true,
    "gamesPlayed": 2,
    "bestTier": 0,
-   "bestScore": 23,
+   "bestScore": 22,
    "allShort": false,
    "games": [
     {
@@ -398,7 +398,7 @@ window.TI_DATA = {
      "matchId": 8943182700,
      "duration": 2927,
      "short": false,
-     "score": 23,
+     "score": 22,
      "tier": 0,
      "estimated": false,
      "comeback": 0,
@@ -516,7 +516,7 @@ window.TI_DATA = {
      "matchId": 8943466067,
      "duration": 4282,
      "short": false,
-     "score": 59,
+     "score": 60,
      "tier": 1,
      "estimated": false,
      "comeback": 5515,
@@ -585,7 +585,7 @@ window.TI_DATA = {
    "complete": true,
    "gamesPlayed": 3,
    "bestTier": 2,
-   "bestScore": 76,
+   "bestScore": 77,
    "allShort": false,
    "games": [
     {
@@ -595,7 +595,7 @@ window.TI_DATA = {
      "matchId": 8943267925,
      "duration": 2690,
      "short": false,
-     "score": 76,
+     "score": 77,
      "tier": 2,
      "estimated": false,
      "comeback": 7066,
@@ -875,7 +875,7 @@ window.TI_DATA = {
      "matchId": 8944602781,
      "duration": 3750,
      "short": false,
-     "score": 71,
+     "score": 72,
      "tier": 1,
      "estimated": false,
      "comeback": 18382,
@@ -1053,7 +1053,7 @@ window.TI_DATA = {
    "complete": true,
    "gamesPlayed": 3,
    "bestTier": 1,
-   "bestScore": 63,
+   "bestScore": 64,
    "allShort": false,
    "games": [
     {
@@ -1089,7 +1089,7 @@ window.TI_DATA = {
      "matchId": 8944834423,
      "duration": 2277,
      "short": false,
-     "score": 63,
+     "score": 64,
      "tier": 1,
      "estimated": false,
      "comeback": 2465,
@@ -1329,7 +1329,7 @@ window.TI_DATA = {
    "complete": true,
    "gamesPlayed": 3,
    "bestTier": 1,
-   "bestScore": 57,
+   "bestScore": 58,
    "allShort": false,
    "games": [
     {
@@ -1339,7 +1339,7 @@ window.TI_DATA = {
      "matchId": 8946161660,
      "duration": 3832,
      "short": false,
-     "score": 57,
+     "score": 58,
      "tier": 1,
      "estimated": false,
      "comeback": 4577,
@@ -1523,7 +1523,7 @@ window.TI_DATA = {
      "matchId": 8946386614,
      "duration": 2377,
      "short": false,
-     "score": 27,
+     "score": 26,
      "tier": 0,
      "estimated": false,
      "comeback": 0,
@@ -1605,7 +1605,7 @@ window.TI_DATA = {
    "complete": true,
    "gamesPlayed": 2,
    "bestTier": 2,
-   "bestScore": 72,
+   "bestScore": 73,
    "allShort": false,
    "games": [
     {
@@ -1615,7 +1615,7 @@ window.TI_DATA = {
      "matchId": 8946343023,
      "duration": 2527,
      "short": false,
-     "score": 72,
+     "score": 73,
      "tier": 2,
      "estimated": false,
      "comeback": 5939,
@@ -1925,7 +1925,7 @@ window.TI_DATA = {
      "matchId": 8946872708,
      "duration": 2131,
      "short": false,
-     "score": 18,
+     "score": 17,
      "tier": 0,
      "estimated": false,
      "comeback": 0,
@@ -2897,7 +2897,7 @@ window.TI_DATA = {
     {
      "n": 3,
      "played": true,
-     "url": null,
+     "url": "https://youtu.be/QwRPnGEJmaE",
      "matchId": 8959067169,
      "duration": 2963,
      "short": false,
@@ -2913,21 +2913,30 @@ window.TI_DATA = {
    "id": "s055",
    "stage": "Main Event",
    "round": "Lower Bracket Semifinals",
-   "start": 1787403600,
+   "start": 1787404200,
    "teams": [
     "BoomBoys",
     "Team Spirit"
    ],
    "bo": 3,
-   "complete": false,
-   "gamesPlayed": 0,
+   "complete": true,
+   "gamesPlayed": 1,
    "bestTier": 0,
-   "bestScore": null,
+   "bestScore": 22,
    "allShort": false,
    "games": [
     {
      "n": 1,
-     "played": false
+     "played": true,
+     "url": "https://youtu.be/jxXiIkzBaB8",
+     "matchId": 8959222564,
+     "duration": 2128,
+     "short": false,
+     "score": 22,
+     "tier": 0,
+     "estimated": false,
+     "comeback": 0,
+     "swings": 0
     },
     {
      "n": 2,
@@ -2946,7 +2955,7 @@ window.TI_DATA = {
    "start": 1787450400,
    "teams": [
     "Team Yandex",
-    "TBD"
+    "Team Spirit"
    ],
    "bo": 3,
    "complete": false,
