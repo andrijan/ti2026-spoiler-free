@@ -6,7 +6,7 @@ window.TI_DATA = {
   "city": "Shanghai, China",
   "dates": "August 13-23, 2026"
  },
- "generated": 1787413165,
+ "generated": 1787424710,
  "series": [
   {
    "id": "s000",
@@ -2920,7 +2920,7 @@ window.TI_DATA = {
    ],
    "bo": 3,
    "complete": true,
-   "gamesPlayed": 1,
+   "gamesPlayed": 2,
    "bestTier": 0,
    "bestScore": 22,
    "allShort": false,
@@ -2940,7 +2940,16 @@ window.TI_DATA = {
     },
     {
      "n": 2,
-     "played": false
+     "played": true,
+     "url": "https://youtu.be/OeDgJcVFlHE",
+     "matchId": null,
+     "duration": null,
+     "short": false,
+     "score": null,
+     "tier": 0,
+     "estimated": true,
+     "comeback": null,
+     "swings": null
     },
     {
      "n": 3,
