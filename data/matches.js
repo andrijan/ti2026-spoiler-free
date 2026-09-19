@@ -6,7 +6,7 @@ window.TI_DATA = {
   "city": "Shanghai, China",
   "dates": "August 13-23, 2026"
  },
- "generated": 1789773663,
+ "generated": 1789793027,
  "series": [
   {
    "id": "s000",
